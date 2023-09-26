@@ -14,7 +14,7 @@ import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
-    val objectURL = "https://dhruvaldhameliya.com/cs388/object.jso"
+    val objectURL = "https://raw.githubusercontent.com/dcdhameliya/Volley-Demo/main/object.json"
 
     lateinit var recyclerView: RecyclerView
 
@@ -37,11 +37,10 @@ class MainActivity : AppCompatActivity() {
             { response ->
                 Log.e("CUSTOM---->", response.toString())
 
-
-//                need to uncomment the function depending on the method you want to use
+//                need to comment/uncomment the function depending on the method you want to use
 
 //                Method 1
-//                setDataToStringList(response)
+                setDataToStringList(response)
 
 //                Method 2
 //                setDataToCustomModelList(response)
