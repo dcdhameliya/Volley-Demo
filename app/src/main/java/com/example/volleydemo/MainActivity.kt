@@ -14,7 +14,7 @@ import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
-    val objectURL = "https://dhruvaldhameliya.com/cs388/object.jso"
+    val objectURL = "https://raw.githubusercontent.com/dcdhameliya/Volley-Demo/main/object.json"
 
     lateinit var recyclerView: RecyclerView
 
