@@ -37,11 +37,10 @@ class MainActivity : AppCompatActivity() {
             { response ->
                 Log.e("CUSTOM---->", response.toString())
 
-
-//                need to uncomment the function depending on the method you want to use
+//                need to comment/uncomment the function depending on the method you want to use
 
 //                Method 1
-//                setDataToStringList(response)
+                setDataToStringList(response)
 
 //                Method 2
 //                setDataToCustomModelList(response)
